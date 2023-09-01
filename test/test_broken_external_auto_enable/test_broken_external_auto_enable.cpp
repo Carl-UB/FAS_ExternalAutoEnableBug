@@ -50,7 +50,7 @@ void setup(void) {
     UNITY_BEGIN();
 
     RUN_TEST(test_stepper_setup_success);
-    RUN_TEST(test_broken_external_auto_enable);
+    test_broken_external_auto_enable();
 
     UNITY_END();
 }
